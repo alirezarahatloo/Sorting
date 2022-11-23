@@ -35,7 +35,7 @@ void print_list(int *list, int i)
     if (i == SIZE_OFF_APS_SORT)
         printf("\n");
     else {
-        (i != (SIZE_OFF_APS_SORT-1)) ? printf("%i,",list[i]) : printf("%i",list[i]);
+        (i != (SIZE_OFF_APS_SORT-1)) ? printf("%i,",list[i]) : printf("%i\n",list[i]);
         print_list(list, i + 1);
     }
 }
